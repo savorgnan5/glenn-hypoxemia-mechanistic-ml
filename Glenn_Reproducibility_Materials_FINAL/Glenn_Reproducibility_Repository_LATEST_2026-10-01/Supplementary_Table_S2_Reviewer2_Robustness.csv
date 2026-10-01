@@ -1,0 +1,17 @@
+Analysis,Metric,Value/N,Median Glenn/SVC pressure (mmHg),Additional result
+Physiologic rule comparator,Logistic regression accuracy,0.5613636363636364,,
+Physiologic rule comparator,Simple physiologic rule accuracy,0.44636363636363635,,
+Physiologic rule comparator,Rule recall: Elevated PVR,0.7742424242424243,,
+Physiologic rule comparator,Rule recall: VVC shunting,0.5742424242424242,,
+Physiologic rule comparator,Rule recall: Pulmonary gas-exchange impairment,0.15833333333333333,,
+Physiologic rule comparator,Rule recall: Increased metabolic demand,0.19772727272727272,,
+Physiologic rule comparator,Rule recall: Ventricular dysfunction,0.5272727272727272,,
+Atrial-pressure sensitivity,Maximum severity-dependent atrial-pressure increase +0 mmHg,5285,9.800578737320514,VD predicted 50.7%; PVR predicted 4.1%
+Atrial-pressure sensitivity,Maximum severity-dependent atrial-pressure increase +3 mmHg,5297,10.291074821529264,VD predicted 43.7%; PVR predicted 5.4%
+Atrial-pressure sensitivity,Maximum severity-dependent atrial-pressure increase +6 mmHg,5301,10.753359032279485,VD predicted 36.4%; PVR predicted 7.3%
+Mixed PVR + gas exchange,Strict cohort N,5553,16.992877344611873,Top-1 either component 93.9%; both components top-2 55.2%
+Mixed PVR + gas exchange,Predicted class: Elevated PVR,63.443183864577705,,percent
+Mixed PVR + gas exchange,Predicted class: VVC shunting,1.8008283810552854,,percent
+Mixed PVR + gas exchange,Predicted class: Pulmonary gas-exchange impairment,30.452007923644874,,percent
+Mixed PVR + gas exchange,Predicted class: Increased metabolic demand,3.817756167837205,,percent
+Mixed PVR + gas exchange,Predicted class: Ventricular dysfunction,0.48622366288492713,,percent
