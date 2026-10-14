@@ -1,0 +1,4 @@
+Reviewer-revision reproducibility package
+Updated: 2026-10-01
+Fixed random seed: 20260812
+Includes Reviewer 2 atrial-pressure, mixed-mechanism, and physiologic-rule analyses.

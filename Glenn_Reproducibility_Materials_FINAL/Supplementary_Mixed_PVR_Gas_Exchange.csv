@@ -1,0 +1,2 @@
+generated,broad,strict,median_spo2,median_glenn_pressure,median_svc_sat,top1_either_component_pct,both_components_top2_pct,predicted_class_pct,mean_prob_pvr,mean_prob_gas
+30000,27957,5553,68.36943352426778,16.992877344611873,54.024595245903214,93.89519178822259,55.24941473077616,"{'Elevated PVR': 63.443183864577705, 'VVC shunting': 1.8008283810552854, 'Pulmonary gas-exchange impairment': 30.452007923644874, 'Increased metabolic demand': 3.817756167837205, 'Ventricular dysfunction': 0.48622366288492713}",0.5763815179587887,0.2705457110709793

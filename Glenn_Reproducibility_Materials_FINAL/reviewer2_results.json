@@ -1,0 +1,117 @@
+{
+  "physiologic_rule": {
+    "thresholds": {
+      "pvr_glenn_pressure": 14.175539606749549,
+      "lung_spo2": 69.19498925996416,
+      "metabolic_hr": 128.32552301159583,
+      "low_svc_sat": 54.35504205789398,
+      "ventricular_map": 66.10301319541247
+    },
+    "accuracy": 0.44636363636363635,
+    "recalls": {
+      "Elevated PVR": 0.7742424242424243,
+      "VVC shunting": 0.5742424242424242,
+      "Pulmonary gas-exchange impairment": 0.15833333333333333,
+      "Increased metabolic demand": 0.19772727272727272,
+      "Ventricular dysfunction": 0.5272727272727272
+    },
+    "cm": [
+      [
+        0.7742424242424243,
+        0.10984848484848485,
+        0.0007575757575757576,
+        0.011363636363636364,
+        0.10378787878787879
+      ],
+      [
+        0.04090909090909091,
+        0.5742424242424242,
+        0.02878787878787879,
+        0.07651515151515151,
+        0.27954545454545454
+      ],
+      [
+        0.08484848484848485,
+        0.3613636363636364,
+        0.15833333333333333,
+        0.09242424242424242,
+        0.30303030303030304
+      ],
+      [
+        0.09545454545454546,
+        0.2840909090909091,
+        0.004545454545454545,
+        0.19772727272727272,
+        0.41818181818181815
+      ],
+      [
+        0.015909090909090907,
+        0.36742424242424243,
+        0.005303030303030303,
+        0.08409090909090909,
+        0.5272727272727272
+      ]
+    ],
+    "logistic_accuracy": 0.5613636363636364
+  },
+  "atrial_pressure_sensitivity": [
+    {
+      "atrial_rise_max_mmHg": 0,
+      "generated": 30000,
+      "broad": 13162,
+      "strict": 5285,
+      "median_atrial_pressure": 5.025405484529592,
+      "median_glenn_pressure": 9.800578737320514,
+      "median_qs": 3.1172160242051294,
+      "predicted_as_vd_pct": 50.709555345316936,
+      "predicted_as_pvr_pct": 4.105960264900662,
+      "mean_prob_vd": 0.3804634419126613,
+      "mean_prob_pvr": 0.05257458290265487
+    },
+    {
+      "atrial_rise_max_mmHg": 3,
+      "generated": 30000,
+      "broad": 13165,
+      "strict": 5297,
+      "median_atrial_pressure": 5.458814524790174,
+      "median_glenn_pressure": 10.291074821529264,
+      "median_qs": 3.115719269403133,
+      "predicted_as_vd_pct": 43.70398338682273,
+      "predicted_as_pvr_pct": 5.3992826127996985,
+      "mean_prob_vd": 0.3483639233665002,
+      "mean_prob_pvr": 0.06593197930203244
+    },
+    {
+      "atrial_rise_max_mmHg": 6,
+      "generated": 30000,
+      "broad": 13165,
+      "strict": 5301,
+      "median_atrial_pressure": 5.8560011971922314,
+      "median_glenn_pressure": 10.753359032279485,
+      "median_qs": 3.115689607205874,
+      "predicted_as_vd_pct": 36.37049613280513,
+      "predicted_as_pvr_pct": 7.30050933786078,
+      "mean_prob_vd": 0.3156342055386161,
+      "mean_prob_pvr": 0.08617056988565214
+    }
+  ],
+  "mixed_pvr_gas_exchange": {
+    "generated": 30000,
+    "broad": 27957,
+    "strict": 5553,
+    "median_spo2": 68.36943352426778,
+    "median_glenn_pressure": 16.992877344611873,
+    "median_svc_sat": 54.024595245903214,
+    "top1_either_component_pct": 93.89519178822259,
+    "both_components_top2_pct": 55.24941473077616,
+    "predicted_class_pct": {
+      "Elevated PVR": 63.443183864577705,
+      "VVC shunting": 1.8008283810552854,
+      "Pulmonary gas-exchange impairment": 30.452007923644874,
+      "Increased metabolic demand": 3.817756167837205,
+      "Ventricular dysfunction": 0.48622366288492713
+    },
+    "mean_prob_pvr": 0.5763815179587887,
+    "mean_prob_gas": 0.2705457110709793
+  }
+}
